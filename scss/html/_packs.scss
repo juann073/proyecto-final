@@ -1,0 +1,30 @@
+.main-packs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+}
+.packs{
+    gap: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+.packs div{
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;    
+    align-items: center;
+}
+.packs div img{
+    width: 100%;   
+    border-radius: 8px;
+    width: 250px;
+    height: 350px;
+}

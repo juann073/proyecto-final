@@ -1,0 +1,24 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*carcteristicas globales*/ 
+
+@import "globales/header";
+@import "globales/footer";
+@import "globales/general";
+//html
+@import "html/home";
+@import "html/nosotros";
+@import "html/valoraciones";
+@import "html/contacto";
+@import "html/packs";
+/*utilidades*/
+@import "utilidades/variables";
+@import "utilidades/mixin";
+@import "utilidades/extend";
+/*MQ*/
+@import "mq/tablet";
+@import "mq/pc";

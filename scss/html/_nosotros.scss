@@ -1,0 +1,27 @@
+.main-nos{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.nos{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: justify;
+
+}
+.gimnasio, .campo-entrenamiento{
+    width: 200px;
+    height: 500px;
+}
+.nos div img{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+

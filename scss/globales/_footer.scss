@@ -1,0 +1,48 @@
+/*Estilos del footer*/
+footer{
+    background-color: rgb(0, 0, 0);
+}
+.contenedor-footer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.iconos{
+    display: flex;
+    justify-content: center;
+}
+.iconos a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: whitesmoke;
+    margin: 10px;
+    border-radius: 50%;
+}
+.iconos a i{
+    font-size: 2em;
+    color: black;
+}
+/*efectos footer*/
+.iconos a:hover{
+    background-color: rgb(17, 79, 173);
+    transition: 0.5;
+}
+.nav-footer{
+    margin: 30px 0;
+}
+.nav-footer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-footer ul li a{
+    color: whitesmoke;
+    margin: 20px;
+    list-style: none;
+    font-size: 1em;
+    transition: 0.5;
+}
+.text-footer{
+    padding: 20px;
+    background-color: 000;
+    text-align: center;
+}

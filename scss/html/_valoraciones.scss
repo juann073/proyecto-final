@@ -1,0 +1,87 @@
+.caja-comentarios{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.comentarios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.testimonios{
+    background: rgb(255, 255, 255);
+    width: 500px;
+    box-shadow: 2px 2px 30px(0,0,0,1);
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.perfil-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50;
+    overflow: hidden;
+    margin-right: 30px;
+}
+.perfil-img img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.perfil{
+    display: flex;
+    align-items: center;
+}
+.name-user{
+    display: flex;
+    flex-direction: column;
+}
+.name-user strong{
+    color: black;
+    font-size: 1.3rem;
+}
+.name-user span{
+    color: gray;
+    font-size: 1,1rem;
+}
+.reseñas{
+    color: yellow;
+}
+.caja-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.camp{
+    width: 300px;
+    margin: 10px;
+    font-size: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    outline: 0px;
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+}
+.button-val {
+    color: #090909;
+    padding: 0.5em 1.5em;
+    font-size: 10px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+   }
+   
+   .button-val:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+                inset -4px -4px 12px #ffffff;
+   }

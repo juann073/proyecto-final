@@ -1,0 +1,35 @@
+/*main home*/
+.main-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+/*slider*/
+.slider{
+    aspect-ratio: 9/16;
+    width: 300px;
+    height: 400px;
+    gap: 30px;
+    position: relative;
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type:x mandatory;
+    gap: 50px;
+}
+.slider img{
+    width: 100%;
+    position: sticky;
+    object-fit: cover;
+    border-radius: 8px;
+    scroll-snap-align: center;
+}
+.text-home{
+    font-size: 1em;
+    height: 400px;
+    width: 300px;
+    text-align: justify;
+}

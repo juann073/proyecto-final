@@ -1,0 +1,24 @@
+@mixin packs ($width, $height, $background){
+    width: $width;
+    height: $height;
+    background-color: $background;
+}
+
+@mixin grid($display, $justify-content, $aling-items){
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex($display, $justify-content, $aling-items){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin titulos($color, $justify-content, $aling-items, $text-aling){
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

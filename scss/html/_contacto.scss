@@ -1,0 +1,44 @@
+.main-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    gap: 45px;
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    gap: 45px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 300px; margin-bottom: 20px;
+}
+textarea, .campo{
+    width: 100%;
+    margin: 10px;
+    font-size: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    outline: 0px;
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+}
+::placeholder{
+    color: rgb(255, 255, 255);
+}
